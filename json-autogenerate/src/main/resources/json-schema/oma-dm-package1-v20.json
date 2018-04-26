@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "OMA DM Package#1 JSON Schema",
+  "type": "object",
+  "properties": {
+    "MOS": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "DDF": {
+            "type": "string"
+          },
+          "MOID": {"type": "string"},
+          "MIID": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": ["MIID"]
+      }
+    },
+    "Alert": {
+      "$ref": "#alert_json_schema"
+    }
+  }
+}

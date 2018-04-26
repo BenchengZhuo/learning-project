@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "OMA DM Package#3 JSON Schema",
+  "type": "object",
+  "properties": {
+    "Status": {
+      "type": "array",
+      "items": {
+        "description": "status codes are ordered in the same sequence with the DM commands in the Package#2",
+        "type": "object",
+        "properties": {
+          "sc": {
+            "type": "number"
+          },
+          "URI": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": ["sc"]
+      }
+    },
+    "Alert": {
+      "$ref": "#alert_json_schema"
+    }
+  },
+  "required": ["Status"]
+}

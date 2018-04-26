@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "OMA DM Package#2 JSON Schema",
+  "type": "object",
+  "properties": {
+    "CMD": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "description": "DM CMD, parameters in order",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": ["CMD"]
+}
