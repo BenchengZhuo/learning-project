@@ -1,0 +1,21 @@
+[
+  {
+    "DDF": "http://www.vendor.com/DDF/devinfo1.0.ddf",
+    "ClientURI": "oma:mo:oma-dm-devinfo:1.0//",
+    "CV": "686897696a7c876b7e",
+    "MOData": {
+      "DevInfo": {
+        "DevID": "IMEI:493005100592800",
+        "Man": "Vendor",
+        "Mod": "DM_Client",
+        "DmV": "2.0",
+        "Lang": "en",
+        "DevType": "smartphone",
+        "OEM": "",
+        "FwV": "android4.0.4",
+        "SwV": "Vendor1.2",
+        "HwV": ""
+      }
+    }
+  }
+]
