@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <jackson.version>2.5.4</jackson.version>
+        <jackson.version>2.10.3</jackson.version>
         <jsonschema2pojo.version>0.5.1</jsonschema2pojo.version>
     </properties>
 
